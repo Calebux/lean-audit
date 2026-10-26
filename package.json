@@ -1,0 +1,10 @@
+{
+  "name": "lean-audit",
+  "version": "0.1.0",
+  "description": "Token-frugal, single-agent security audit skill: a scanner and route inventory point the agent at the few lines worth reading.",
+  "type": "module",
+  "license": "MIT",
+  "engines": { "node": ">=18" },
+  "bin": { "lean-audit-scan": "scripts/scan.mjs", "lean-audit-routes": "scripts/routes.mjs" },
+  "scripts": { "test": "node --test test/scan.test.mjs" }
+}
